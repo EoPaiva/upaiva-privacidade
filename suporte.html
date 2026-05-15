@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suporte — Não Seguidores uPaiva</title>
+  <meta name="description" content="Suporte da extensão Não Seguidores uPaiva. Tire dúvidas, reporte problemas, solicite reembolso." />
+  <style>
+    :root {
+      --bg: #0a0e14;
+      --panel: #11161e;
+      --text: #e4ecf3;
+      --text-secondary: #a3afbe;
+      --text-muted: #6b7785;
+      --border: rgba(255,255,255,0.08);
+      --accent: #00ff88;
+      --accent-2: #00d9ff;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6; font-size: 16px;
+    }
+    .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 32px; }
+    .brand {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: 13px; letter-spacing: 0.5px; color: var(--text-muted);
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .brand-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    }
+    h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; }
+    .subtitle { font-size: 16px; color: var(--text-secondary); }
+    h2 { font-size: 20px; margin: 40px 0 12px; }
+    h3 { font-size: 16px; margin: 24px 0 8px; }
+    p, ul, ol { color: var(--text-secondary); margin: 12px 0; }
+    ul { padding-left: 22px; }
+    strong { color: var(--text); }
+    a { color: var(--accent-2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      background: var(--panel); border: 1px solid var(--border);
+      padding: 2px 6px; border-radius: 4px;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 0.9em; color: var(--accent);
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, rgba(0,255,136,0.06), rgba(0,217,255,0.06));
+      border: 1px solid rgba(0,255,136,0.18);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+    .contact-card a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #001a1f;
+      font-weight: 700;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .contact-card a:hover { text-decoration: none; opacity: 0.9; }
+
+    details {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 8px 0;
+    }
+    details summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--text);
+      list-style: none;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after {
+      content: " ▾";
+      float: right;
+      opacity: 0.5;
+    }
+    details[open] summary::after { content: " ▴"; }
+    details > p { margin-top: 12px; }
+
+    footer {
+      margin-top: 56px; padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted); font-size: 13px; text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand"><span class="brand-dot"></span> uPaiva · Suporte</div>
+      <h1>Suporte — Não Seguidores uPaiva</h1>
+      <div class="subtitle">Tire dúvidas, reporte problemas ou solicite reembolso.</div>
+    </header>
+
+    <div class="contact-card">
+      <strong>Resposta em até 48 horas úteis</strong>
+      <p>Envie seu e-mail descrevendo o problema, com prints se possível.</p>
+      <a href="mailto:suporte@upaiva.dev">✉️ suporte@upaiva.dev</a>
+    </div>
+
+    <h2>Antes de pedir suporte</h2>
+    <p>A maioria das dúvidas tem resposta rápida abaixo. Confere antes de mandar e-mail — economiza tempo.</p>
+
+    <h2>Perguntas frequentes</h2>
+
+    <details>
+      <summary>A extensão não está carregando meus seguidores</summary>
+      <p>1) Confirme que você está logado no Instagram nesta aba.</p>
+      <p>2) Recarregue a aba do Instagram (F5) e tente de novo.</p>
+      <p>3) Em Configurações → Limpar todos os dados, depois recarregue tudo.</p>
+      <p>4) Se persistir, o Instagram pode ter aplicado limite temporário à sua conta. Aguarde algumas horas.</p>
+    </details>
+
+    <details>
+      <summary>Comprei o Premium e a chave não chegou</summary>
+      <p>1) Confira a caixa de <strong>spam</strong> ou <strong>promoções</strong> do e-mail informado na compra.</p>
+      <p>2) O envio ocorre automaticamente após confirmação do pagamento pelo Mercado Pago — pode levar até 5 minutos.</p>
+      <p>3) Se não chegar em 30 minutos, envie e-mail para suporte@upaiva.dev informando: e-mail usado na compra, valor e horário do PIX. Reenviamos a chave manualmente.</p>
+    </details>
+
+    <details>
+      <summary>Como ativo a chave Premium?</summary>
+      <p>Abra o popup da extensão → clique no badge <strong>Free</strong> no canto superior direito → clique em <strong>Já tenho uma key</strong> → cole o e-mail usado na compra e a chave recebida no formato UPAIVA-XX-XXXXXX-XXXXXX-XXXXXX → <strong>Ativar Premium</strong>.</p>
+    </details>
+
+    <details>
+      <summary>Atingi o limite de 2 dispositivos. Como troco?</summary>
+      <p>Abra a extensão no dispositivo novo → badge Free → <strong>Recuperar acesso por e-mail</strong> → digite o e-mail da compra → você recebe um código de 6 dígitos por e-mail → digita o código no novo dispositivo. Isso libera a nova ativação respeitando o limite de 2 dispositivos simultâneos.</p>
+    </details>
+
+    <details>
+      <summary>Quero solicitar reembolso</summary>
+      <p>O direito de arrependimento (CDC Art. 49) garante reembolso integral em até 7 dias da compra, desde que cumpridos os requisitos da <a href="termos.html">Seção 5 dos Termos de Uso</a>.</p>
+      <p>Envie e-mail para suporte@upaiva.dev <strong>do mesmo endereço usado na compra</strong>, com: data e valor do pagamento, últimos 4 caracteres da chave, motivo da desistência. Respondemos em até 5 dias úteis.</p>
+    </details>
+
+    <details>
+      <summary>Minha conta do Instagram foi limitada após usar a extensão</summary>
+      <p>O Instagram pode aplicar restrições a contas que ele considere automatizadas, independentemente da ferramenta usada. A extensão usa delays aleatórios e limites conservadores para minimizar esse risco, mas <strong>não há garantia de imunidade</strong>.</p>
+      <p>Recomendações:</p>
+      <ul>
+        <li>Não use a remoção automática mais de 1 vez ao dia</li>
+        <li>Mantenha o delay entre 5 e 11 segundos</li>
+        <li>Não exceda 150 remoções por sessão</li>
+        <li>Se a conta for limitada, pare por 24-48h antes de tentar de novo</li>
+      </ul>
+      <p>Restrições aplicadas pelo Instagram <strong>não geram reembolso</strong>, conforme Termos de Uso.</p>
+    </details>
+
+    <details>
+      <summary>Os dados são seguros? Vocês veem meus seguidores?</summary>
+      <p><strong>Não.</strong> Toda análise é feita localmente, no seu navegador. Suas listas de seguidores e seguindo nunca são enviadas a nenhum servidor da uPaiva. Veja detalhes na <a href="index.html">Política de Privacidade</a>.</p>
+    </details>
+
+    <details>
+      <summary>Quero remover meus dados</summary>
+      <p><strong>Dados locais:</strong> Configurações → Limpar todos os dados (apaga tudo no seu navegador imediatamente).</p>
+      <p><strong>Dados do Premium no nosso backend:</strong> envie e-mail para suporte@upaiva.dev pedindo exclusão. Apagamos em até 5 dias úteis, conforme LGPD.</p>
+    </details>
+
+    <h2>Outros canais</h2>
+    <ul>
+      <li><strong>E-mail:</strong> <a href="mailto:suporte@upaiva.dev">suporte@upaiva.dev</a></li>
+      <li><strong>Política de Privacidade:</strong> <a href="index.html">Política de Privacidade</a></li>
+      <li><strong>Termos de Uso:</strong> <a href="termos.html">Termos de Uso</a></li>
+    </ul>
+
+    <h2>Tempo de resposta</h2>
+    <p>Atendimento de segunda a sexta, das 9h às 18h (horário de Brasília). Respondemos em até 48 horas úteis.</p>
+    <p>Pedidos de reembolso ou problemas com pagamento têm prioridade — respondemos em até 24h úteis.</p>
+
+    <footer>
+      © 2026 uPaiva · Não Seguidores uPaiva
+    </footer>
+  </div>
+</body>
+</html>
